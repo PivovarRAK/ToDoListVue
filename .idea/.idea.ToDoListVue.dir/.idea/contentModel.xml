@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="ToDoListFront/node_modules/@babel/parser" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@babel/types" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@types" t="IncludeRecursive">
+        <e p="anymatch" t="IncludeRecursive" />
+        <e p="body-parser" t="IncludeRecursive" />
+        <e p="connect" t="IncludeRecursive" />
+        <e p="connect-history-api-fallback" t="IncludeRecursive" />
+        <e p="express" t="IncludeRecursive" />
+        <e p="express-serve-static-core" t="IncludeRecursive" />
+        <e p="http-proxy" t="IncludeRecursive" />
+        <e p="http-proxy-middleware" t="IncludeRecursive" />
+        <e p="mime" t="IncludeRecursive" />
+        <e p="minimatch" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+        <e p="qs" t="IncludeRecursive" />
+        <e p="range-parser" t="IncludeRecursive" />
+        <e p="serve-static" t="IncludeRecursive" />
+        <e p="source-list-map" t="IncludeRecursive" />
+        <e p="tapable" t="IncludeRecursive" />
+        <e p="uglify-js" t="IncludeRecursive" />
+        <e p="webpack" t="IncludeRecursive" />
+        <e p="webpack-sources" t="IncludeRecursive" />
+      </e>
+      <e p="ToDoListFront/node_modules/@vue/cli-plugin-babel" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/cli-plugin-eslint" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/cli-service" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/compiler-core" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/compiler-dom" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/compiler-sfc" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/compiler-ssr" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/component-compiler-utils" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/reactivity" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/runtime-core" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/runtime-dom" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/@vue/shared" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/acorn" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/acorn-walk" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/address" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/babel-eslint" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/chalk" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/cli-highlight" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/clipboardy" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/core-js" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/csstype" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/eslint" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/eslint-plugin-vue" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/estree-walker" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/globby" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/ignore" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/import-fresh" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/javascript-stringify" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/magic-string" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/portfinder" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/postcss" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/postcss-selector-parser" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/source-map" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/sourcemap-codec" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/vue" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/vue-loader" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/vue-loader-v16" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/vuex" t="IncludeRecursive" />
+      <e p="ToDoListFront/node_modules/webpack-chain" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
