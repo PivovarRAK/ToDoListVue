@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q3nGI7bKAI2Ub8pQ/XNa1w6PSo/5MBd421rv4Vcs2UkTgJEEKTvlY3umWNx7LoxdELHa5haIIXeZ6c+RoZLD1Q==",
+  "dgSpecHash": "oFBH1OIFadKTpYuagcP3+hS1Awx1Zj+oQK4SYd4kB4S2Z3V8dPWE8NIHTckPSZogahOKj40UA4b/N0EF+Liv4g==",
   "success": true,
-  "projectFilePath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj",
+  "projectFilePath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/dimitrijpivovar/.nuget/packages/coverlet.collector/1.2.0/coverlet.collector.1.2.0.nupkg.sha512",
     "/Users/dimitrijpivovar/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

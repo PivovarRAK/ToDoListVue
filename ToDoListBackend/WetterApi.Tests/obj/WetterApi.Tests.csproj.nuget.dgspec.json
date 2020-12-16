@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj": {}
+    "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj": {}
   },
   "projects": {
-    "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj": {
+    "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj",
+        "projectUniqueName": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj",
         "projectName": "WetterApi.Tests",
-        "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj",
+        "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi.Tests/WetterApi.Tests.csproj",
         "packagesPath": "/Users/dimitrijpivovar/.nuget/packages/",
-        "outputPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi.Tests/obj/",
+        "outputPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimitrijpivovar/.nuget/NuGet/NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj": {
-                "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj"
+              "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj": {
+                "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj": {
+    "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj",
+        "projectUniqueName": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj",
         "projectName": "WetterApi",
-        "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj",
+        "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj",
         "packagesPath": "/Users/dimitrijpivovar/.nuget/packages/",
-        "outputPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/obj/",
+        "outputPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dimitrijpivovar/.nuget/NuGet/NuGet.Config"

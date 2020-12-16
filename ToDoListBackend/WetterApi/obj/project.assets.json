@@ -8917,11 +8917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj",
+      "projectUniqueName": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj",
       "projectName": "WetterApi",
-      "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj",
+      "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj",
       "packagesPath": "/Users/dimitrijpivovar/.nuget/packages/",
-      "outputPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/obj/",
+      "outputPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dimitrijpivovar/.nuget/NuGet/NuGet.Config"

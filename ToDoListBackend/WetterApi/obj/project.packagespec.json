@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj",
+    "projectUniqueName": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj",
     "projectName": "WetterApi",
-    "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj",
-    "outputPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/obj/",
+    "projectPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj",
+    "outputPath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
