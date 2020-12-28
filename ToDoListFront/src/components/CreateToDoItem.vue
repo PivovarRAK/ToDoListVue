@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="submitButton">
     <button v-on:click="openMenu">
       <span><img src="@/assets/add.png" /></span>
@@ -8,9 +9,7 @@
     v-show="menuIsVisible"
     @submit.prevent="
       insertEntry(this.activityInput, this.detailsInput);
-      this.menuIsVisible = false;
-    "
-  >
+      this.menuIsVisible = false;">
     <input
       v-model="activityInput"
       required
@@ -18,8 +17,9 @@
       placeholder="New activity"
     />
     <input v-model="detailsInput" type="text" placeholder="New details" />
-    <button type="submit">New Entry</button>
+    <button id="submitNewActivity" type="submit">New Entry</button>
   </form>
+  </div>
 </template>
 
 <script>
@@ -37,17 +37,14 @@ export default {
   ,
   setup() {
     const store = useStore();
-
-    function insertEntry(activityInput, detailsInput) {
-      store.commit("insertEntry", { activityInput, detailsInput });
-    }
-  
-
-    return { insertEntry};
+    return { store};
   },
   methods: {
     openMenu() {
       this.menuIsVisible = !this.menuIsVisible;
+    },
+    insertEntry(activityInput, detailsInput) {
+      this.store.dispatch("insertEntry", { activityInput, detailsInput });
     },
   },
 };

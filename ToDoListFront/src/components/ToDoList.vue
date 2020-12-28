@@ -18,8 +18,10 @@
         <img src="@/assets/settings.png" />
       </div>
     </div>
+    <div id="components">
     <ToDoItem :entries="entries"></ToDoItem>
     <CreateToDoItem></CreateToDoItem>
+    </div>
   </div>
 </template>
 
@@ -48,18 +50,19 @@ export default {
   },
   props: {},
   setup() {
-    
     const store = useStore();
-    store.dispatch('getArrayFromApi');
+    //store.dispatch('getArrayFromApi');
     const entries = computed(() => store.state.entries);
-    
-    
 
-   
-    return { entries };
+    return {store, entries };
   },
-  
   methods: {},
+  mounted(){
+    //store.dispatch('getArrayFromApi');
+
+    this.store.dispatch('getArrayFromApi');
+    
+  }
   
   
 };

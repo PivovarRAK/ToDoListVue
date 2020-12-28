@@ -1,5 +1,7 @@
 <template>
+<div>
   <div
+    data-test="todo-item"
     class="containerData"
     v-for="entry in entries"
     v-bind:key="entry.id"
@@ -19,7 +21,7 @@
     </div>
     <div class="itemsData">
       <div :class="entry.status ? 'greenButton' : 'redButton'">
-        <button v-on:click="editEntry(entry)">
+        <button id="openEdit" v-on:click="editEntry(entry)">
           <span><img src="@/assets/edit.png" /></span>
         </button>
         <form
@@ -40,10 +42,10 @@
             id="editDetails"
             type="text"
           />
-          <button type="submit">Confirm edit</button>
+          <button id="submitButton" type="submit">Confirm edit</button>
         </form>
 
-        <button @click="deleteEntry(entry, entry.id)">
+        <button id="deleteButton" @click="deleteEntry(entry, entry.id)">
           <span><img src="@/assets/trash.png" /></span>
         </button>
         <button v-on:click="changeStatus(entry);done(entry)">
@@ -54,6 +56,7 @@
         </button>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -74,17 +77,7 @@ export default {
   setup() {
     const store = useStore();
 
-    function deleteEntry(entry) {
-      store.dispatch("deleteEntry", entry);
-    }
-    function submitEdit(entry, editActivity, editDetails, status){
-      store.commit("editEntry", {entry, editActivity, editDetails, status});
-    }
-    function changeStatus(entry){
-      store.commit("changeStatus", entry);
-    }
-
-  return { deleteEntry, submitEdit, changeStatus};
+  return { store };
   },
   methods: {
     done(entry) {
@@ -97,7 +90,16 @@ export default {
       this.editActivity = "";
       this.editDetails = "";
     },
-    
+    deleteEntry(entry){
+      this.store.dispatch("deleteEntry", entry);
+      console.log("method deleteEntry");
+    }, 
+    submitEdit(entry, editActivity, editDetails, status){
+      this.store.dispatch("editEntry", {entry, editActivity, editDetails, status});
+    },
+    changeStatus(entry){
+      this.store.dispatch("changeStatus", entry);
+    },
   },
   mounted() {
   },

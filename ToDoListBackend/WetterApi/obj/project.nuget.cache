@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3eFu5JptwomtWz+lo1AJpbUDB+u6C4yYeBGh/e46QPci/eyKu2bKcJb6Fw39ZJ8lnXBF7Kfp5ZpbKcny7H3QJg==",
+  "dgSpecHash": "B8Pfji1D5IIUZgFoLdk0dba2bRCgNRjMuWnZouLpIYE/2+1vqk7X8cUc1t9X1f3nbdGk5yVpxVou79wYR94B0A==",
   "success": true,
-  "projectFilePath": "/Users/dimitrijpivovar/RiderProjects/ToDoListBackend/WetterApi/WetterApi.csproj",
+  "projectFilePath": "/Users/dimitrijpivovar/RiderProjects/ToDoListVue/ToDoListBackend/WetterApi/WetterApi.csproj",
   "expectedPackageFiles": [
     "/Users/dimitrijpivovar/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/dimitrijpivovar/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

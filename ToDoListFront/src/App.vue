@@ -1,6 +1,8 @@
 <template>
+<div>
   <title>To Do List</title>
   <ToDoList></ToDoList>
+  </div>
 </template>
 
 <script>
